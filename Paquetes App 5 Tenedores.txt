@@ -1,0 +1,24 @@
+npm install @react-navigation/native@^5.1.5
+expo install react-native-gesture-handler@~1.6.0 
+expo install react-native-reanimated@~1.7.0 
+expo install react-native-screens@~2.2.0 
+expo install react-native-safe-area-context@~0.7.3
+expo install @react-native-community/masked-view@~0.1.6
+expo install @react-navigation/stack@~5.2.10
+expo install @react-navigation/bottom-tabs@^5.2.6
+expo install react-native-elements@~1.2.7
+npm i firebase@7.14.0 o 8.2.3 (eso dependera de las alertas al iniciar la aplicacion te va sugerir otra version compatible con los paquetes instalados)
+npm i react-native-keyboard-aware-scroll-view@0.9.4 (La 0.9.1 no funciona tiene un problema al cargar el componente hijo)
+npm i lodash@4.17.5
+npm i react-native-easy-toast@1.2.0
+----------------------------------------------------------
+npm i expo-permissions@8.1.0
+npm i expo-image-picker@8.1.0
+Para solucionar el error de unimodules usar el comando (npm i unimodules-permissions-interface)
+----------------------------------------------------------
+Problemas con los permissions.
+Dado que se me complico para seguir con el curso, tuve que dar lamentablemente un giro 
+y descargar el una version expo mas antigua que tenga el sdk 37 igual a la version del curso 
+con lo cual tambien tuve que instalar todos los paquetes de nuevo los paquetes estan en los recursos del curso
+https://github.com/xAgustin93/5-tenedores-react-native/blob/master/package.json
+
